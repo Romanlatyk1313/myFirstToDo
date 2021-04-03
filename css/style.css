@@ -1,0 +1,70 @@
+body{
+   background-color: #B4DA4D;
+}
+
+.container{
+   max-width: 800px;
+   background: #90BE16;
+   margin: 0 auto;
+}
+.head{
+   margin: 0 auto;
+   width: 400px ;
+   height: 50px;
+   border: 5px double #5C741C ;
+   text-align: center;
+   color: #DC7302;
+}
+h1{
+   font-size: 35px;
+   text-align: center;
+   margin: auto;
+}
+.content{
+   max-width: 600px;
+   background-color: #0B4104;
+   margin: 0 auto;
+}
+#todoList{
+   max-width: 500px;
+   padding: 10px;
+   margin: auto;
+}
+.innerText{
+   color: #fff;
+   font-size: 24px;
+   text-align: center;
+}
+.addMessag{
+   display: flex;
+   justify-content: space-between;
+}
+a{
+   text-decoration: none;
+   color: rgb(189, 11, 11);
+   font-size:28px;
+   
+}
+a:hover{
+   background-color: red;
+   color: black;
+}
+.input{
+   margin: 20px auto;
+   max-width: 400px;
+   display: flex;
+  justify-content : center;
+}
+#inputMessage input{
+   margin: 5px;
+   padding: 10px;
+}
+button{
+   margin: 5px;
+   padding: 5px;
+}
+
+
+
+
+
