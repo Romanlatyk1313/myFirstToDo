@@ -3,6 +3,7 @@ const send = document.getElementById("send");
 const clear = document.getElementById("clear");
 
 const inputMessage = document.getElementById("inputMessage");
+
 addMessage();
 function addMessage(){
   send.addEventListener('click', function(e){
